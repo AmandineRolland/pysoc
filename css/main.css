@@ -1,0 +1,71 @@
+/*MDN*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap');
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;/*taille du body à 100% du viewport*/
+    margin: 0;    /*marges à zéro*/
+    background: rgb(141,245,172);
+    background:#8df5ac;
+    background: #df9fdf;
+    background: rgb(0,255,127,.2);
+    background: #8df5acdd;
+    background-image: linear-gradient(#df9fdf,#0ff,#df9fdf);
+    
+}
+#top{
+    height:15vh;
+    display:flex;
+    justify-content:space-between; /* ne peut être activé que lorsque la fonction flex est active*/
+    }
+h1{
+    letter-spacing: 1rem; /*espace entre les lettres*/
+    font-weight: bolder;
+}
+
+/*création class d'image dans un header fera 100% de la hauteur du parent*/
+.imageheader{
+    height:100%
+}
+.greyshadow{
+    text-shadow: .5rem .5rem .25rem #e12fe1;
+    text-shadow: 0 0 .25rem #3e2fe1;
+}
+pre{
+    font-size:1.1rem;
+}
+.member{
+    background-color: #fff;
+    border: #fff solid .1rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin:5%;
+}
+.member img{
+    width: 80%;
+    margin: 10%;
+    border-radius: 50%;
+    
+
+}
+#members{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     
+}
+
+.boy{
+    background-image: linear-gradient(#f0f,#fff);
+}
+.girl{
+    background-image: linear-gradient(rgb(0, 204, 255),#fff);
+}
+h1,h2,h3{
+    font-family: 'caveat',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header, #intro{ /*selection multiple*/
+width: 90%;
+margin: auto;
+}
